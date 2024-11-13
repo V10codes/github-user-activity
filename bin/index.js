@@ -12,10 +12,16 @@ async function getEvent() {
         method: "GET",
       }
     );
-    if (response.status === 404) {
-      console.log("No user found with username: " + username);
+
+    if (!response.ok) {
+      if (response.status === 404) {
+        console.log("User not found. Please check the username.");
+      } else {
+        console.log(`Error fetching data: ${response.status}`);
+      }
       return;
     }
+
     const json = await response.json();
     let events = new Map();
     json.forEach((event) => {
