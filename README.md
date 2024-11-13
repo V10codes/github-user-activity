@@ -18,14 +18,12 @@ A simple command line interface (CLI) to fetch the recent activity of a GitHub u
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/V10codes/
-   cd
+   git clone https://github.com/V10codes/github-user-activity
+   cd github-user-activity
    ```
 2. Ensure your programming language JavaScript is installed.
 
 ### Usage
-
--Run the task-cli program from your command line, passing in commands and parameters as positional arguments.
 
 Example usage:
 
