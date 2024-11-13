@@ -29,5 +29,5 @@ Example usage:
 
 ```bash
 #Enter your GitHub username
-github-activity add username
+github-activity username
 ```
