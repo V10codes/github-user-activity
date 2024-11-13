@@ -29,5 +29,5 @@ Example usage:
 
 ```bash
 #Enter your GitHub username
-task-cli add username
+github-activity add username
 ```
