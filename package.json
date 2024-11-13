@@ -1,0 +1,15 @@
+{
+  "name": "github-user-activity",
+  "version": "1.0.0",
+  "bin": {
+    "github-activity": "./bin/index.js"
+  },
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}
